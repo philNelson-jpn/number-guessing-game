@@ -9,10 +9,12 @@ const correct = document.querySelector(".correct-guess")
 
 
 let randomNr = Math.floor(Math.random() * 11)
-const goodJob = document.createElement("h2")
-goodJob.innerText = "You got it! The answer is " + randomNr
+
+
 
 button.addEventListener("click", (e) => {
+    const goodJob = document.createElement("h2")
+    goodJob.innerText = "You got it! The answer is " + randomNr
     e.preventDefault()
     let guess = input.value
     if (randomNr > guess) {
