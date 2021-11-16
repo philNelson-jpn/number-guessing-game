@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <style>
+        .too-low.show {
+            display: block;
+        }
+
+        .too-high.show {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2 class="title">Number Quiz!</h2>
+    <form action="" class="submit-guess">
+        <input type="text" class="guess" placeholder="Guess a number between 1 and 10">
+        <button class="submit-button">Submit</button>
+    </form>
+    <div class="hints">
+        <h2 class="too-low">You guessed too low! Try again.</h2>
+        <h2 class="too-high">You guessed too high! Try again.</h2>
+        <h2 class="correct-guess"></h2>
+    </div>
+
+</body>
+
+</html>
