@@ -1,39 +1,4 @@
-// function sayHi() {
-//     console.log(`hello there ${name}`)
-//     changeName()
-//     console.log(`sayHi is finished`)
-// }
 
-// function changeName() {
-//     name = "Bobby"
-//     console.log(`We changed it to ${name}`)
-//     console.log(`changeName is finished`)
-// }
-// let name = "Phil"
-
-// sayHi()
-
-// console.log("We are done with the code")
-
-
-
-
-// THE KEYWORD THIS
-
-
-// const user = {
-//     name: "Phil",
-//     videos: ["html", "css", "javascript", "react"],
-//     greet() {
-//         console.log(`Hello there ${this.name}`)
-//         this.videos.forEach(video => {
-//             console.log(this.name)
-//         })
-
-//     }
-// }
-
-// user.greet()
 
 const button = document.querySelector(".submit-button")
 const form = document.querySelector(".submit-guess")
